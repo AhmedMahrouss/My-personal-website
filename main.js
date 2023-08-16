@@ -30,7 +30,12 @@ icons[4].onclick = ()=>{
     })
     icons[4].classList.add('active');
 }
-
+icons[5].onclick = ()=>{
+    icons.forEach(icon=>{
+        icon.classList.remove('active')
+    })
+    icons[5].classList.add('active');
+}
 let close  = document.querySelector(".close");
 let msg = document.querySelector(".msg");
 let showMsg = document.querySelector(".service .box :nth-child(2)");
