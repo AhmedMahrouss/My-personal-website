@@ -48,3 +48,9 @@ close.onclick = ()=>{
     msg.style.display = 'none'
 document.querySelector(".container").style.filter = 'blur(0px)'
 }
+
+let images = ["IMG_0093.jpg","IMG_0133.jpg","IMG_0129.jpg","IMG_0147.jpg"];
+setInterval(()=>{
+    document.querySelector(".imgheader").innerHTML = `<img src="images/${images[Math.floor(Math.random()*4)]}"   />`
+},3000)
+

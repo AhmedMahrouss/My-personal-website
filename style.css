@@ -1,3 +1,6 @@
+:root{
+--main-color: #bffdfa;
+}
 /* Start General Style */
 *{
 margin: 0;
@@ -35,7 +38,7 @@ font-size: 20px;
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
 header nav span ,header .headerContent h1 span ,.container .about .abouttext h2 span , footer :first-child span{
-color: yellow;
+color: var(--main-color);
 }
 header .headerContent{
 text-align: center;
@@ -74,7 +77,7 @@ margin-bottom: 35px;
 }
 .btns button , .container .about .abouttext button ,.contact form input[type ="submit"]{
 padding: 8px;
-background-color: yellow;
+background-color: var(--main-color);
 color: #000;
 font-size: 20px;
 border: none;
@@ -86,19 +89,19 @@ transition: .5s all ease-in-out;
 }
 .btns button:first-child{
 background-color: transparent;
-border: 2px solid yellow;
+border: 2px solid var(--main-color);
 
 }
 .btns button:first-child a ,.btns button:nth-child(2) a , .abouttext button a,.scroll p a{ 
 text-decoration: none;
-color: yellow;
+color: var(--main-color);
 }
 .btns button:nth-child(2) a , .abouttext button a {
 color: black;
 }
 .contact form input[type ="submit"]:hover{
 background-color: transparent;
-border: dashed 2px yellow;
+border: dashed 2px var(--main-color);
 color: #fff;
 }
 header .center-header{
@@ -112,7 +115,7 @@ margin-left: 25px;
 header .center-header img{
 width: 300px;
 height: 300px;
-border: 20px solid yellow;
+border: 20px solid var(--main-color);
 border-radius: 50%;
 }
 header .center-header .scroll{
@@ -120,7 +123,7 @@ width: 15%;
 margin-top: 20px;
 }
 header .center-header .scroll i{
-color: yellow;
+color: var(--main-color);
 margin-bottom: 28px;
 }
 header .center-header .sochial{
@@ -130,12 +133,12 @@ flex-direction: column;
 header .center-header .sochial i{
 padding: 5px 0px;
 font-size: 20px;
-color: yellow;
+color: var(--main-color);
 }
 header .center-header .scroll p{
 transform: rotate(-90deg);
 font-size: 10px;
-color: yellow;
+color: var(--main-color);
 cursor: pointer;
 }
 /* End Header */
@@ -153,7 +156,7 @@ color: #888B91;
 }
 .container .about .title :nth-child(2){
 font-size: 37px;
-color: yellow;
+color: var(--main-color);
 }
 .container .about .abouttext p{
 padding: 15px 0px;
@@ -178,7 +181,7 @@ color: #888B91;
 }
 .container .skills .title :nth-child(2){
 font-size: 37px;
-color: yellow;
+color: var(--main-color);
 }
 .container .skills .box{
 padding: 20px;
@@ -189,7 +192,7 @@ border-radius: 10px;
 margin-bottom: 15px;
 }
 .container .skills .box .title h2{
-color: yellow;
+color: var(--main-color);
 }
 .container .skills .box .pos{
 display: flex;
@@ -217,7 +220,7 @@ margin-bottom: 5px;
 letter-spacing: 2px;
 }
 .container .service .title h2{
-color: yellow;
+color: var(--main-color);
 font-size: 32px;
 }
 .container .service .box{
@@ -234,7 +237,7 @@ font-size: 20px;
 font-weight: bold;
 }
 .container .service .box :nth-child(2){
-color: yellow;
+color: var(--main-color);
 cursor: pointer;
 }
 /* End Service Style */
@@ -253,7 +256,7 @@ letter-spacing: 2px;
 margin-bottom: 5px;
 }
 .container .projects .title :nth-child(2){
-color: yellow;
+color: var(--main-color);
 font-size: 30px;
 }
 .container .projects .box{
@@ -312,7 +315,7 @@ font-size: small;
 margin-bottom: 5px;
 }
 .container .contact .title :nth-child(2){
-color: yellow;
+color: var(--main-color);
 font-size: 37px;
 }
 .container .contact .left :first-child{
@@ -405,7 +408,7 @@ color: #888B91;
 padding: 6px;
 }
 .bottomNav .active{
-background-color: yellow;
+background-color: var(--main-color);
 border-radius: 50%;
 }
 
@@ -425,7 +428,7 @@ display: none;
 }
 .msg h2{
 margin-bottom: 10px;
-color: yellow;
+color: var(--main-color);
 }
 .msg :nth-child(3){
  font-size: 18px;
@@ -438,7 +441,7 @@ text-align: justify;
 .msg .close{
 position: absolute;
 right: 20px;
-color: yellow;
+color: var(--main-color);
 cursor: pointer;
 font-size: 30px;
 }
